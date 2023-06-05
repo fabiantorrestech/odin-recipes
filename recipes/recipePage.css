@@ -1,19 +1,18 @@
 * {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #b6f1a6;
 }
+
+/* .food-pic{
+  height: auto;
+  width: 100px;
+} */
 
 .title{
-
+  text-align: center;
+  font-weight: 700;
 }
 
-.description{
-
-}
-
-.ingredients{
-
-}
-
-.steps{
-
+.header-section{
+  color:rgb(11, 116, 3);
 }
