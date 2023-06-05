@@ -1,0 +1,12 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  text-align: center;
+}
+
+.list-of-recipes {
+  font-size: 22px;
+  list-style-type: none;
+}
