@@ -16,23 +16,35 @@ a:visited {
   text-decoration: none;
   color: inherit;
 }
+/* ----------------------- */
 
 .title {
   text-align: center;
   color: #34721F;
-  padding-left: 50px;
 }
 
 .list-of-recipes {
   font-size: 22px;
   list-style-type: none;
-  box-sizing: border-box;
+  /* alternative box-model for the list-sizing */
+  box-sizing: border-box; 
   margin: auto;
   width: 350px;
 }
 
-.homepage-recipe-styling-per-recipe {
+/* .homepage-recipe-styling-per-recipe-list {
   border-style: outset;
   padding: 20px 10px;
   margin: 20px;
+} */
+
+.homepage-recipe-buttons {
+  background-color: bisque;
+  display: block;
+  padding: 20px 10px;
+  margin: 20px;
+}
+
+.homepage-recipe-buttons:hover {
+  background-color: beige;
 }

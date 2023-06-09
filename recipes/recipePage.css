@@ -3,17 +3,31 @@
   background-color: #b6f1a6;
 }
 
-/* .food-pic{
-  height: auto;
-  width: 100px;
-} */
-
-.title{
-  text-align: center;
-  font-weight: 700;
+.food-pic-container {
+  width: 500px;
+  /* center the food pic within this container */
+  margin: auto;
 }
 
-.header-section{
-  color:rgb(11, 116, 3);
+.food-pic {
+  /* How to resize picture without losing aspect ratio 
+  -- keep height: auto, then resize width only */
+  height: auto;
+  width: 500px;
+}
+
+.title {
+  text-align: center;
+  font-weight: 700;
+  color: #34721F;
+}
+
+.header-section {
+  color:#0b7403;
+  font-style: italic;
+}
+
+.new-section {
+  margin: 20px;
 }
 
