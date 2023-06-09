@@ -7,7 +7,32 @@ body {
   text-align: center;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+.title {
+  text-align: center;
+  color: #34721F;
+  padding-left: 50px;
+}
+
 .list-of-recipes {
   font-size: 22px;
   list-style-type: none;
+  box-sizing: border-box;
+  margin: auto;
+  width: 350px;
+}
+
+.homepage-recipe-styling-per-recipe {
+  border-style: outset;
+  padding: 20px 10px;
+  margin: 20px;
 }
