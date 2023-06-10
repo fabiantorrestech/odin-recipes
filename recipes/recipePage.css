@@ -4,6 +4,7 @@
 }
 
 .food-pic-container {
+  height: 300px;
   width: 500px;
   /* center the food pic within this container */
   margin: auto;
@@ -14,6 +15,12 @@
   -- keep height: auto, then resize width only */
   height: auto;
   width: 500px;
+}
+
+.stir-fry-pic {
+  height: 300px;
+  width: 500px;
+  object-fit: contain;
 }
 
 .title {
