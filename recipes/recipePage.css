@@ -11,16 +11,9 @@
 }
 
 .food-pic {
-  /* How to resize picture without losing aspect ratio 
-  -- keep height: auto, then resize width only */
-  height: auto;
-  width: 500px;
-}
-
-.stir-fry-pic {
-  height: 300px;
-  width: 500px;
-  object-fit: contain;
+  height: 100%; /* occupy 100% of the height set in the container */
+  width: 100%; /* occupy 100% of the width set in the container */
+  object-fit: contain; /*  */
 }
 
 .title {
