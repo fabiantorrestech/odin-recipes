@@ -16,35 +16,29 @@ a:visited {
   text-decoration: none;
   color: inherit;
 }
-/* ----------------------- */
+
+
 
 .title {
   text-align: center;
   color: #34721F;
 }
 
-.list-of-recipes {
-  font-size: 22px;
-  list-style-type: none;
-  /* alternative box-model for the list-sizing */
+.homepage-recipes {
   box-sizing: border-box; 
   margin: auto;
   width: 350px;
+  text-align: center;
 }
 
-/* .homepage-recipe-styling-per-recipe-list {
-  border-style: outset;
-  padding: 20px 10px;
-  margin: 20px;
-} */
-
-.homepage-recipe-buttons {
-  background-color: bisque;
+.hpr-link-buttons {
   display: block;
   padding: 20px 10px;
-  margin: 20px;
+  margin: 10px;
+  background-color: bisque;
+  border-radius: 15px;
 }
 
-.homepage-recipe-buttons:hover {
+.hpr-link-buttons:hover {
   background-color: beige;
 }
